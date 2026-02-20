@@ -7,7 +7,7 @@
 
 ## 🎯 What is Reentrancy Attack?
 
-**The #1 smart contract vulnerability.** Contract sends ETH **BEFORE** updating internal balances, allowing malicious **BadBoy** contract to **re-enter** recursively and **drain all funds**.
+**The 1 smart contract vulnerability.** Contract sends ETH **BEFORE** updating internal balances, allowing malicious **BadBoy** contract to **re-enter** recursively and **drain all funds**.
 
 ATTACK FLOW:
 
