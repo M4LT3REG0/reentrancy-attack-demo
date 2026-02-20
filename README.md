@@ -1,9 +1,9 @@
-# 💥 The DAO $60M Hack - Reproduced in Solidity 0.8.26
+# 💥 The DAO $60M hack - Reproduced in Solidity 0.8.26
 
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.26-blue)](https://soliditylang.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/M4LT3REG0/reentrancy-attack-demo/blob/main/LICENSE)
 
-**Educational demonstration of the infamous Reentrancy Attack that stole $60M from The DAO (2016)**
+**Educational demonstration of the infamous **Reentrancy Attack** that stole $60M from The DAO (2016)**
 
 ## 🎯 What is Reentrancy Attack?
 
@@ -39,6 +39,7 @@ Bank.getBalance() → 0 ETH
 ### 2. Fund Bank (Victim deposits)  
 Account → Bank.deposit{value: 10+ ETH}()
 Bank.getBalance() → 19 ETH ✅
+
 
 ### 3. Deploy BadBoy Attacker
 contracts/BadBoy.sol → Constructor: [Bank address]
@@ -92,7 +93,7 @@ This project was inspired by these excellent educational resources:
 **Cyfrin** for their amazing FREE platform  
 [updraft.cyfrin.io](https://updraft.cyfrin.io/)
 
-**MetaDapp YouTube tutorial** for the crystal-clear  
+**[MetaDapp YouTube tutorial]([[url](https://www.youtube.com/@MetaDapp )** for the crystal-clear 
 Reentrancy Attack explanation that made this complex  
 vulnerability finally understandable!
 
