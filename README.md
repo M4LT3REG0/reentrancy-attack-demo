@@ -51,7 +51,9 @@ BadBoy.attack{value: 1 ETH}()
 ### 🎯 **23 ETH!**
 
 💥 Bank.getBalance() → DRENADO
+
 💰 BadBoy Balance → 23 ETH (+1550% profit!)✅
+
 
 <img width="1114" height="435" alt="image" src="https://github.com/user-attachments/assets/92ed43b1-0610-4cc2-8858-584ee2e63ad8" />
 
