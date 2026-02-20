@@ -26,7 +26,7 @@ REPEATS until bank drained 😱
 reentrancy-attack-demo/
 ontracts
 - 🏛️ Bank.sol # 💥 Vulnerable Bank
-- 😈 BadBoy.sol # 🦹 Malicious Attacker (renamed from Hacker)
+- 😈 BadBoy.sol # 🦹 Malicious Attacker
 
 
 
