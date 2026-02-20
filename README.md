@@ -1,4 +1,4 @@
-# 🔒 Reentrancy Attack - Complete Solidity 0.8.26 Demonstration
+# 💥 The DAO $60M Hack - Reproduced in Solidity 0.8.26
 
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.26-blue)](https://soliditylang.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/M4LT3REG0/reentrancy-attack-demo/blob/main/LICENSE)
