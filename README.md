@@ -9,17 +9,17 @@
 
 **The 1 smart contract vulnerability.** Contract sends ETH **BEFORE** updating internal balances, allowing malicious **BadBoy** contract to **re-enter** recursively and **drain all funds**.
 
-ATTACK FLOW:
+🚀 ATTACK FLOW:
 
-BadBoy.deposit(1 ETH) → Bank records +1 ETH credit
+1. 💰 BadBoy.deposit(1 ETH) → Bank records +1 ETH credit ✓
 
-BadBoy.withdraw() → Bank sends 1 ETH to BadBoy
+2. 🏧 BadBoy.withdraw() → Bank sends **1 ETH** to BadBoy 💸
 
-💥 BadBoy.fallback() → Calls Bank.withdraw() AGAIN
+3. 💥 **BadBoy.fallback()** → Calls Bank.withdraw() **AGAIN** 🔄
 
-Bank thinks: "Still has credit" → Sends ANOTHER 1 ETH
+4. 🧠 Bank thinks: "Still has credit" → Sends **ANOTHER 1 ETH** 😈
 
-REPEATS until bank drained 😱
+5. 🔁 **REPEATS** until **bank DRAINED** 💀
 
 ## 📁 Project Structure
 
