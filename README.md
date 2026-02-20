@@ -24,12 +24,11 @@ REPEATS until bank drained 😱
 ## 📁 Project Structure
 
 reentrancy-attack-demo/
-├── contracts/
-│ ├── Bank.sol # 💥 Vulnerable Bank
-│ └── BadBoy.sol # 🦹 Malicious Attacker (renamed from Hacker)
-└── screenshots/ # 📸 Attack proof images
+ontracts
+- 🏛️ Bank.sol # 💥 Vulnerable Bank
+- 😈 BadBoy.sol # 🦹 Malicious Attacker (renamed from Hacker)
 
-text
+
 
 ## 💻 Step-by-Step Attack (Remix IDE)
 
